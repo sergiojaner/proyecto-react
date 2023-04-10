@@ -9,7 +9,7 @@ const Login = () => {
   return (
     <form className='w-full' onSubmit={() => {navigate("/dashboard")}}>
         <div className='w-full flex justify-center'>
-          <img src="src/assets/svg/auth/user-icon.svg" width="100px"/>
+          <img src="https://static.vecteezy.com/system/resources/previews/004/274/186/original/person-icon-user-interface-icon-silhouette-of-man-simple-symbol-a-glyph-symbol-in-your-web-site-design-logo-app-ui-webinar-video-chat-ect-vector.jpg" width="100px"/>
         </div>
 
         <div className="mb-6">
