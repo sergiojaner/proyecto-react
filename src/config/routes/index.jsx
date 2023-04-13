@@ -6,6 +6,7 @@ import { createBrowserRouter } from "react-router-dom";
 import ListaRegistro from "../../presentation/pages/dashboard/ListaRegistro";
 import Registro from "../../presentation/pages/dashboard/Registro";
 import Graficas from "../../presentation/pages/dashboard/Graficas";
+import Consultas from "../../presentation/pages/dashboard/Consultas";
 
 export const router = createBrowserRouter(
 
@@ -43,6 +44,10 @@ export const router = createBrowserRouter(
           {
             path:"ListaRegistro",
             element:<ListaRegistro />
+          },
+          {
+            path:"Consultas",
+            element:<Consultas />
           },
         ]  
       }

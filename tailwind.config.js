@@ -7,6 +7,10 @@ export default {
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
+    screens:{
+      'xs':'100px',
+      'sm':'500px'
+    },
     extend: {},
   },
   plugins: [
